@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+ * {
+      /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+      margin: 0;
+      padding: 0;
+ 
+      /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+      box-sizing: border-box;
+       }
+
+header {
+	display: inline;
+}
+
+body {
+   font-family: 'Quicksand',sans-serif;
+   margin: 0;
+   padding: 0;
+   }
+
+main {
+	padding: 20px;
+	overflow: auto;
+	background-color: #a8dadc;
+
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+.card {
+   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   padding: 15px;
+   margin-top: 30px;
+   overflow: auto;
+   background-color: #e5e5e5;
+}
+
+.header-atas {
+	text-align: center;
+	font-size: 18px;
+	padding: 50px;
+	color: white;
+	background-color: #1d3557;
+}
+
+nav li{
+	list-style-type: none;
+	margin-right: 20px;
+	display: inline;
+	color: white;
+}
+
+nav {
+	background-color: #457b9d;
+	position: sticky;
+	padding: 20px;
+	top: 0;
+
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+
+}
+
+article p {
+	margin-right: 20px;
+	margin-top: 30px;
+
+}
+
+.profil-pic {
+	width: 30%;
+	object-position: right;
+	float: left;
+	padding: 30px;
+
+}
+
+.smk {
+	padding: 20px;
+}
+
+.unv {
+
+	padding: 20px;
+	margin-top: 90px;
+
+}
+
+#logo-smk{
+	float: left;
+	padding: 10px;
+}
+
+#logo-unv{
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.exp-1 {
+	padding: 10px;
+}
+
+.exp-2,.exp-3{
+	padding: 10px;
+	margin-top: 30px;
+}
+
+#exp-logo-prim {
+	float: left;
+	width: 35%;
+	padding: 15px;
+}
+
+#exp-logo-var {
+	float: left;
+	width: 35%;
+	padding: 15px;
+}
+
+#exp-logo-mg{
+	float: left;
+	width: 35%;
+	padding:15px;
+}
+
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #00a2c6;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.samping {
+	text-align: center;
+}
+
+#skill {
+	text-align: left;
+}
+
+#skill table {
+	margin-left: 60px;
+}
+
+#skill th {
+	padding-top: 5px;
+}
+
+#skill progress[value]{
+	background-color: #457b9d;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+
+.contact tr {
+	text-align: left;
+}
+
+.contact td {
+	padding: 3px;
+}
+.contact span {
+	margin-left: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-instagram{
+	background: #dd4b39;
+	color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   #skill table {
+   	margin-left: 100px;
+   }
+}
